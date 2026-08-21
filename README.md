@@ -63,6 +63,8 @@ jupyter lab --ip=0.0.0.0 --no-browser
 
 Код сервиса рекомендаций находится в файле `recommendations_service.py`.
 
+"bash"
+
 uvicorn events_store:app --host 0.0.0.0 --port 8020
 
 uvicorn similar_items:app --host 0.0.0.0 --port 8010
